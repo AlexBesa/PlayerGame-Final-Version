@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 180, 180);
+}
+h1{
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+}
+.btn{
+    background-color:rgb(40, 109, 13);
+    color: white;
+    padding: 10px 7px;
+    text-decoration: none;
+    font-size: 15px;  
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+/* 
+.canvas{
+    display: flex;
+    position: relative;
+    background-color: aquamarine;
+    margin: auto;
+    border:1px black solid;
+} */

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Please play the Game!</h1>
+    <canvas 
+        class = "canvas" 
+        height="400px" 
+        width="400px"
+        style=  "
+                background-color: rgb(16, 190, 176);
+                display: flex;
+                position: relative;
+                margin: 10px auto;
+                border:1px black solid;
+                ">
+    </canvas>
+    <button id="playButton" class="btn">Play The Game</button>
+    <button onClick="window.location.reload()" class="btn">Refresh Game</button>
+    
+    <script src="./classes/Obstacles.js"></script>
+    <script src="./classes/Player.js"></script>
+    <script src="./classes/Game.js"></script>
+    <script src="view.js"></script>
+</body>
+</html>
